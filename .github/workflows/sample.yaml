@@ -9,7 +9,7 @@ jobs:
     if: ${{ github.ref_name == 'testdeployment' }}
     runs-on: ubuntu-latest
     steps: 
-      - name: "Greetings"
+      - name: "welcome Greetings"
         run: |
           echo "--- Greetings ----"
       
