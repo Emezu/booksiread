@@ -6,7 +6,7 @@ on:
         - canary
 jobs: 
   testdeployment:
-    if: ${{ github.ref_name == 'testdeployment' }}
+    if: ${{ github.ref_name == 'tests' }}
     runs-on: ubuntu-latest
     steps: 
       - name: "welcome Greetings"
